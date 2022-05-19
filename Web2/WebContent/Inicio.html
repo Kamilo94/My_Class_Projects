@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Maqueta de Css</title>
+		<link rel="stylesheet" href="css/estilos.css"/>	
+		
+			<meta name="google-signin-scope" content="profile email">
+			<meta name="google-signin-client_id" content="343112553361-kkq4v8hdfdhuvm7o5gemo32ui460s0ep.apps.googleusercontent.com">
+			<script src="https://apis.google.com/js/platform.js" async defer></script>
+			<script type="text/javascript" src="js/google.js"></script>
+			
+	</head>
+	<body>
+		<div id="container">
+			<header>
+				<h1>Programacion III</h1>
+			</header>
+			<nav>
+				<div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
+				<div id="resultado"></div>
+				<button onclick="signOut()">Sing Out</button>
+			</nav>
+			<nav>
+				<ul>
+					<li>
+						<a href="Inicio.html">Inicio</a>
+					</li>
+					<li>
+						<a href="Video.html">Video</a>
+					</li>
+					<li>
+						<a href="Imagen.html">Imagen</a>
+					</li>
+					<li>
+						<a href="Contactos.html">Contacto</a>
+					</li>
+					<li>
+						<a href="http://uvirtual.uniremington.edu.co/"target="_blank">Universidad</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="clearfix"></div>
+			<section id="content1">
+				<article class="article">
+						<hr>
+					<h2>SECTION</h2>
+						<p>El elemento de HTML ( "section" ) representa una sección genérica de un documento. 
+							Sirve para determinar qué contenido corresponde a qué parte de un esquema.
+							Piensa en el esquema como en el índice de contenido de un libro
+						</p>
+						<hr>
+				</article>
+				
+				<article class="article">
+					<h2>ARTICLE</h2>
+						<p>El Elemento article de HTML (article) representa una composición auto-contenida en un documento, 
+							página, una aplicación o en el sitio, que se destina a distribuir de forma independiente o reutilizable,
+						</p>
+						<hr>
+				</article>
+				
+				<article class="article">
+					<h2>ARTICLE EJEMPLO</h2>
+						<p>Un ejemplo real de article podría ser un mensaje de un foro, 
+							el artículo de una revista o periódico, un comentario de un usuario a una entrada de blog o incluso una entrada en un blog. 
+							La estructura podría ser la siguiente
+						</p>
+						<hr>
+				</article>
+				
+			</section>
+			<aside>
+				<h2>Barra Lateral Aside</h2>
+				<form >
+					<input type="text"/>
+					<br><br>
+					<input type="submit" value="Buscar"/>
+				</form>
+			</aside>
+			<div class="clearfix"></div>
+			<footer>
+				<h2>Clase de Programacion Footer</h2>
+			</footer>
+		</div>
+	</body>
+</html>
+
+
+
